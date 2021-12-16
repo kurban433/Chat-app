@@ -8,7 +8,86 @@
     <title>Document</title>
 </head>
 <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(50, 196, 123);
+}
+.main{
+   width: 800px;
+   max-width: 90%;
+   background:rgb(6, 150, 90);
+   
+}
+.logo{
+    padding: 20px;
+    background: rgb(4, 94, 52);
+    display: flex;
+    align-items: center;
+
+}
+img{
+    height: 100px;
+}
+.message-area{
+    height: 450px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+
+}
+.text-area{
+    margin-bottom: 0px;
+}
+textarea{
+     width: 100%;
+     border: none;
+     padding: 20px;
+     font-size: 16px;
+     outline: none;
+     background: #fff;
+     margin-bottom: -4px;
+
+}
+.message{
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 50%;
+    position: relative;
+}
+.in{
     
+    background: rgb(187, 180, 180);
+    color: rebeccapurple;
+    /* max-width: 200px; */
+
+}
+.out{
+   
+    background: rgb(151, 119, 119);
+    color: red;
+    margin-left: auto;
+
+}
+.message h2{
+    position: absolute;
+    position: relative;
+
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
     </style>
 <body>
       <div class="main">
