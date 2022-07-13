@@ -1,5 +1,5 @@
 
-var socket=io()
+var socket=io("http://localhost/8000")
 var name1;
 var textarea=document.querySelector("#textaera1")
 var messageArea=document.querySelector(".message-area")
